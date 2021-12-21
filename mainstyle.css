@@ -1,0 +1,87 @@
+/*COOL BUTTON COLOURS GOOOO!!*/
+
+:root {
+  --color-primary: #5ec576;
+  --color-secondary: #ffcb03;
+  --color-tertiary: #ff585f;
+  --color-primary-darker: #4bbb7d;
+  --color-secondary-darker: #ffbb00;
+  --color-tertiary-darker: #fd424b;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
+
+/* COOL HOVER COLOURS GOOOO!!!!*/
+.buttons {
+  padding: 15rem 3rem;
+  border-top: 1px solid #ddd;
+
+  transition: transform 1s, opacity 1s;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  padding: 1.25rem 4.5rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-darker);
+}
+
+/* OPERATIONS */
+.games {
+  max-width: 100rem;
+  margin: 12rem auto 0 auto;
+}
+
+.games__tab-container {
+  display: flex;
+  justify-content: center;
+}
+
+.games__tab {
+  margin-right: 2.5rem;
+  transform: translateY(-50%);
+}
+
+.games__tab span {
+  margin-right: 1rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.guess__btn--1 {
+  background-color: var(--color-secondary);
+}
+
+.guess__btn--1:hover {
+  background-color: var(--color-secondary-darker);
+}
+
+.games__tab--3 {
+  background-color: var(--color-tertiary);
+  margin: 0;
+}
+
+.games__tab--3:hover {
+  background-color: var(--color-tertiary-darker);
+}
